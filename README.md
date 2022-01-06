@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Run Buddy Inc.
-=======
 # Run Buddy, Inc
->>>>>>> 595d5a79e7bfc26c97ea77d43934a2b5d3b0c409
 
 ## Purpose
 A website that offers fitness training services. 
