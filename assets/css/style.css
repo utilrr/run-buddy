@@ -375,7 +375,6 @@ header {
 
 .flex-row {
   display: flex;
-  justify-content: center;
 }
 
 /* Again, adding styles to match the sample */
