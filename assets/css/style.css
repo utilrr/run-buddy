@@ -72,6 +72,7 @@ header {
     color: #024e76;
   }
 
+  /* Section styles */
   section {
     padding: 60px;
   
@@ -143,46 +144,8 @@ header {
 }
 /* Hero Style End */
 
-/*  Removed rules
-.intro {
-  text-align: center;
-}
 
-
-.intro h2 {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #fce138;
-  display: inline-block;
-}
-*/
-
-.intro p {
-  line-height: 1.7;
-  color: #39a6b2;
-  width: 80%;
-  font-size: 20px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-
-/*  What You Do section styles  */
-.step {
-  margin: 50px auto;
-  padding-bottom: 50px;
-  width: 80%;
-  border-bottom: 1px solid #39a6b2;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
-
+/* section title styles */ 
 .section-title {
   font-size: 55px;
   color: #024e76;
@@ -200,6 +163,38 @@ header {
 .secondary-border {
   border-color: #39a6b2;
 }
+/* end of section title style */
+
+
+/* What we do style */ 
+.intro p {
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* what we do style */
+
+
+/*  What You Do section styles  */
+
+.steps { 
+  background: #fce138;
+}
+
+.step {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid #39a6b2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
 
 .step h3 {
   color: #024e76;
@@ -213,6 +208,17 @@ header {
   flex-wrap: wrap;
   align-items: center;
 }
+
+
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+
+.step-img img {
+  max-width: 100%;
+}
+
 
 .step-text {
   flex: 12;
@@ -229,14 +235,7 @@ header {
   color: #024e76;
 }
 
-.step-img {
-  flex: 1 12%;
-  margin-right: 20px;
-}
-
-.step-img img {
-  max-width: 100%;
-}
+/* End of What you do styles */
 
 /*  Trainers section styles  */
 
@@ -288,6 +287,7 @@ header {
 }
 
 /* REACH OUT section START */
+
 .contact {
   background: #024e76;
 }
