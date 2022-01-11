@@ -89,6 +89,18 @@ header {
   align-items: flex-start;
 }
 
+/* Added styles to match the sample */
+.hero h2 {
+  color: #fce138;
+}
+
+.hero p {
+  color: #fff;
+}
+
+/* End of added styles to match sample */ 
+
+
 .hero-cta {
   width: 35%;
     text-align: right;
@@ -393,6 +405,18 @@ header {
   
   .hero-cta {
     text-align: center;
+  }
+
+  .section-title {
+    width: 80%;
+  }
+  
+  .trainer {
+    flex: 0 70%;
+  }
+  
+  .contact-info iframe{
+    flex: 1 100%;
   }
     
 }
